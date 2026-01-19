@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CJAJLKART — Galerie Nocturne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <img src="images/logo.png" alt="Logo CJAJLKART">
+        <div>
+          <div class="brand-title">CJAJLKART</div>
+          <div style="font-size:0.78rem;color:#9fa3d1;">Artiste & illustrateur — Univers nocturne</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#galerie">Galerie</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Galerie nocturne de CJAJLKART</h1>
+        <p>Peintures originales, paysages marins, scènes oniriques et abstractions énergétiques. Chaque toile est une fenêtre ouverte sur un fragment de nuit intérieure.</p>
+        <div class="hero-tags">
+          <span class="tag">Mer &amp; ciel</span>
+          <span class="tag">Paysages</span>
+          <span class="tag">Abstrait</span>
+          <span class="tag">Univers nocturne</span>
+        </div>
+        <p style="font-size:0.85rem;color:#9fa3d1;">Les œuvres présentées ici sont réalisées à la main, à l'acrylique, sur toile. Certaines sont disponibles à la vente sur demande.</p>
+      </div>
+      <div class="hero-card">
+        <p style="font-size:0.86rem;margin-top:0;color:#cdd0ff;">«&nbsp;Silence, les tableaux doivent parler d’eux‑mêmes et inspirer les visiteurs.&nbsp;»</p>
+        <p style="font-size:0.8rem;color:#9fa3d1;">Ce portfolio rassemble une sélection d’œuvres qui portent la signature de Cedric (CJAJLKART)&nbsp;: un goût pour les ciels profonds, les mers en mouvement et les lumières qui traversent l’obscurité.</p>
+      </div>
+    </section>
+
+    <section id="galerie">
+      <h2 class="section-title">Galerie d'œuvres</h2>
+      <p class="section-sub">Parcourez les tableaux par thème. Cliquez sur une image pour l’agrandir.</p>
+
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">Tout</button>
+        <button class="filter-btn" data-filter="Mer &amp; Ciel">Mer &amp; Ciel</button>
+        <button class="filter-btn" data-filter="Paysage">Paysages</button>
+        <button class="filter-btn" data-filter="Animaux">Animaux</button>
+        <button class="filter-btn" data-filter="Abstrait">Abstrait</button>
+      </div>
+
+      <div class="gallery-grid"></div>
+    </section>
+
+    <section id="a-propos" class="split-two">
+      <div class="panel">
+        <h2 class="section-title">À propos de CJAJLKART</h2>
+        <p>Cedric, alias CJAJLKART, est un artiste autodidacte qui a commencé par la peinture traditionnelle avant d’explorer des univers liés au jeu vidéo, à l’illustration et à la narration visuelle. Son travail mêle souvent la mer, le ciel et des atmosphères nocturnes.</p>
+        <p>Chaque toile est pour lui une manière de poser des émotions silencieuses&nbsp;: la solitude d’un bateau au crépuscule, la puissance d’une vague, la douceur d’un chat face au soleil ou l’énergie brute d’une abstraction rouge et bleue.</p>
+      </div>
+      <div class="panel">
+        <h2 class="section-title">Note sur les originaux</h2>
+        <p>Les tableaux présentés sont des œuvres originales, peintes à l’acrylique sur toile. Les supports ne sont pas vendus encadrés par défaut&nbsp;: les cadres visibles sur certaines images sont des mises en situation numériques destinées à aider à se projeter.</p>
+        <p>Pour toute demande d’achat, de commande personnalisée ou d’exposition, un échange direct est privilégié afin d’ajuster le format, le prix et les conditions de remise.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="split-two">
+      <div class="panel">
+        <h2 class="section-title">Contact &amp; demandes</h2>
+        <p>Pour connaître la disponibilité d’une œuvre, discuter d’un prix ou imaginer un tableau sur mesure, vous pouvez contacter directement l’artiste&nbsp;:</p>
+        <p><strong>Email :</strong> cedricpenet666@gmail.com</p>
+        <p style="font-size:0.8rem;">Merci de préciser le titre du tableau qui vous intéresse (ou une capture d’écran) afin de faciliter l’échange.</p>
+      </div>
+      <div class="panel">
+        <h2 class="section-title">Fourchette de prix</h2>
+        <p>Les prix varient selon le format, le temps de réalisation et la complexité du sujet. À titre indicatif, une toile peut commencer autour de <strong>20&nbsp;€</strong> pour les petits formats, avec un ajustement possible pour les pièces plus grandes ou plus détaillées.</p>
+        <p>Aucun paiement en ligne n’est proposé pour l’instant&nbsp;: tout se fait par échange direct afin de respecter le rythme de l’artiste et de chaque acheteur.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox">
+    <div class="lightbox-inner">
+      <div class="lightbox-top">
+        <button class="lightbox-close">Fermer</button>
+      </div>
+      <img src="" alt="">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 CJAJLKART — Site et univers visuel développés avec l’aide d’un compagnon IA.
+  </footer>
+
+  <script src="js/gallery-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
