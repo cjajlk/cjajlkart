@@ -334,3 +334,32 @@ footer {
     font-size:0.8rem;
   }
 }
+
+.support-nocturne {
+  margin: 3rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.support-nocturne h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #e6e6ff;
+}
+
+.support-nocturne p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #cfd3ff;
+}
+
+.support-note {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #b8bcff;
+}
+/* End of CSS file */

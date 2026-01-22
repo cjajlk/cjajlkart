@@ -24,6 +24,25 @@ const artworks = [
     "description": "Un bateau solitaire au crépuscule, dans une mer profonde et silencieuse."
   },
   {
+  "file": "le_souvenir_lointain.jpg",
+  "title": "Le Souvenir lointain",
+  "category": "Mer & Ciel",
+  "description": "Une mer calme et lointaine, comme un souvenir qui persiste après le temps. Travail sur la douceur, l’horizon et la mémoire."
+},
+{
+  "file": "le_temps_d_avant.jpg",
+  "title": "Le Temps d’avant",
+  "category": "Mer & Ciel",
+  "description": "Paysage silencieux suspendu avant le changement. Une scène presque cinématographique, entre ciel lourd et horizon figé."
+},
+{
+  "file": "tempetueuse.jpg",
+  "title": "Tempétueuse",
+  "category": "Mer & Ciel",
+  "description": "Une mer agitée sous un ciel sombre. Travail sur le mouvement, la tension et la force contenue."
+},
+
+  {
     "file": "barque_plage.jpg",
     "title": "Barque au Repos",
     "category": "Paysage",
