@@ -1,5 +1,11 @@
 const artworks = [
   {
+    "file": "silence.jpg",
+    "title": "Silence Bleu",
+    "category": "Mer & Ciel",
+    "description": "Je n’ai rien forcé,\nLa mer s’est peinte toute seule."
+  },
+  {
     "file": "mer_atmospherique.jpg",
     "title": "Lumière sur l’Océan",
     "category": "Mer & Ciel",
